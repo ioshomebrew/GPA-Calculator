@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092048D4A5A3BFCE4243B9A2 /* libPods-GPA Calculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E65ADDCAE6BFEC3092879 /* libPods-GPA Calculator.a */; };
+		3A4C10651DC83EEA0041D9A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C10641DC83EEA0041D9A0 /* GoogleService-Info.plist */; };
+		3A59C0F31D8C46AA00E64988 /* GradeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A59C0F21D8C46AA00E64988 /* GradeViewCell.m */; };
 		3AF546A51D5C2758005E9FC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546A41D5C2758005E9FC1 /* main.m */; };
 		3AF546A81D5C2758005E9FC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546A71D5C2758005E9FC1 /* AppDelegate.m */; };
 		3AF546AB1D5C2758005E9FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546AA1D5C2758005E9FC1 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		3AF546B31D5C2758005E9FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF546B11D5C2758005E9FC1 /* LaunchScreen.storyboard */; };
 		3AF546BE1D5C2758005E9FC1 /* GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546BD1D5C2758005E9FC1 /* GPA_CalculatorTests.m */; };
 		3AF546C91D5C2758005E9FC1 /* GPA_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546C81D5C2758005E9FC1 /* GPA_CalculatorUITests.m */; };
+		3AF546DE1D5D8441005E9FC1 /* AddClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546DD1D5D8441005E9FC1 /* AddClassViewController.m */; };
+		3AF546E91D5D88D8005E9FC1 /* GPAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF546E71D5D88D8005E9FC1 /* GPAClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A4C10641DC83EEA0041D9A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GPA Calculator/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A59C0F11D8C46AA00E64988 /* GradeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeViewCell.h; sourceTree = "<group>"; };
+		3A59C0F21D8C46AA00E64988 /* GradeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeViewCell.m; sourceTree = "<group>"; };
 		3AF546A01D5C2758005E9FC1 /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF546A41D5C2758005E9FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AF546A61D5C2758005E9FC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		3AF546C41D5C2758005E9FC1 /* GPA CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPA CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF546C81D5C2758005E9FC1 /* GPA_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPA_CalculatorUITests.m; sourceTree = "<group>"; };
 		3AF546CA1D5C2758005E9FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF546DC1D5D8441005E9FC1 /* AddClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClassViewController.h; sourceTree = "<group>"; };
+		3AF546DD1D5D8441005E9FC1 /* AddClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClassViewController.m; sourceTree = "<group>"; };
+		3AF546E61D5D88D8005E9FC1 /* GPAClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPAClass.h; path = "GPA Calculator/GPAClass.h"; sourceTree = "<group>"; };
+		3AF546E71D5D88D8005E9FC1 /* GPAClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPAClass.m; path = "GPA Calculator/GPAClass.m"; sourceTree = "<group>"; };
+		58E624268C92A5BD9A6F6533 /* Pods-GPA Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPA Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2E65ADDCAE6BFEC3092879 /* libPods-GPA Calculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPA Calculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BD0AB9853B6F659AF89B8C /* Pods-GPA Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPA Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092048D4A5A3BFCE4243B9A2 /* libPods-GPA Calculator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +97,15 @@
 		3AF546971D5C2758005E9FC1 = {
 			isa = PBXGroup;
 			children = (
+				3A4C10641DC83EEA0041D9A0 /* GoogleService-Info.plist */,
+				3AF546E61D5D88D8005E9FC1 /* GPAClass.h */,
+				3AF546E71D5D88D8005E9FC1 /* GPAClass.m */,
 				3AF546A21D5C2758005E9FC1 /* GPA Calculator */,
 				3AF546BC1D5C2758005E9FC1 /* GPA CalculatorTests */,
 				3AF546C71D5C2758005E9FC1 /* GPA CalculatorUITests */,
 				3AF546A11D5C2758005E9FC1 /* Products */,
+				BD124E0E5FE7603E019E06DB /* Pods */,
+				DB34CEAF5B76FF037479D2A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,10 @@
 				3AF546A91D5C2758005E9FC1 /* ViewController.h */,
 				3AF546AA1D5C2758005E9FC1 /* ViewController.m */,
 				3AF546AC1D5C2758005E9FC1 /* Main.storyboard */,
+				3A59C0F11D8C46AA00E64988 /* GradeViewCell.h */,
+				3A59C0F21D8C46AA00E64988 /* GradeViewCell.m */,
+				3AF546DC1D5D8441005E9FC1 /* AddClassViewController.h */,
+				3AF546DD1D5D8441005E9FC1 /* AddClassViewController.m */,
 				3AF546AF1D5C2758005E9FC1 /* Assets.xcassets */,
 				3AF546B11D5C2758005E9FC1 /* LaunchScreen.storyboard */,
 				3AF546B41D5C2758005E9FC1 /* Info.plist */,
@@ -140,6 +165,23 @@
 			path = "GPA CalculatorUITests";
 			sourceTree = "<group>";
 		};
+		BD124E0E5FE7603E019E06DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E624268C92A5BD9A6F6533 /* Pods-GPA Calculator.debug.xcconfig */,
+				E8BD0AB9853B6F659AF89B8C /* Pods-GPA Calculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB34CEAF5B76FF037479D2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E2E65ADDCAE6BFEC3092879 /* libPods-GPA Calculator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AF546CD1D5C2758005E9FC1 /* Build configuration list for PBXNativeTarget "GPA Calculator" */;
 			buildPhases = (
+				A7C074F2520319589AA6A87A /* [CP] Check Pods Manifest.lock */,
 				3AF5469C1D5C2758005E9FC1 /* Sources */,
 				3AF5469D1D5C2758005E9FC1 /* Frameworks */,
 				3AF5469E1D5C2758005E9FC1 /* Resources */,
+				50AD0B6F515C92F5B3E10C35 /* [CP] Embed Pods Frameworks */,
+				FEACA7B577697BB72A6C871D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF546B31D5C2758005E9FC1 /* LaunchScreen.storyboard in Resources */,
+				3A4C10651DC83EEA0041D9A0 /* GoogleService-Info.plist in Resources */,
 				3AF546B01D5C2758005E9FC1 /* Assets.xcassets in Resources */,
 				3AF546AE1D5C2758005E9FC1 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +311,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50AD0B6F515C92F5B3E10C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C074F2520319589AA6A87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEACA7B577697BB72A6C871D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPA Calculator/Pods-GPA Calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AF5469C1D5C2758005E9FC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3AF546AB1D5C2758005E9FC1 /* ViewController.m in Sources */,
+				3AF546DE1D5D8441005E9FC1 /* AddClassViewController.m in Sources */,
+				3A59C0F31D8C46AA00E64988 /* GradeViewCell.m in Sources */,
 				3AF546A81D5C2758005E9FC1 /* AppDelegate.m in Sources */,
 				3AF546A51D5C2758005E9FC1 /* main.m in Sources */,
+				3AF546E91D5D88D8005E9FC1 /* GPAClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,22 +510,36 @@
 		};
 		3AF546CE1D5C2758005E9FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E624268C92A5BD9A6F6533 /* Pods-GPA Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GPA",
+					Calculator,
+				);
 				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ioshomebrew.GPA-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioshomebrew.gpacalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		3AF546CF1D5C2758005E9FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BD0AB9853B6F659AF89B8C /* Pods-GPA Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GPA",
+					Calculator,
+				);
 				INFOPLIST_FILE = "GPA Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ioshomebrew.GPA-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioshomebrew.gpacalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +609,7 @@
 				3AF546CF1D5C2758005E9FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AF546D01D5C2758005E9FC1 /* Build configuration list for PBXNativeTarget "GPA CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +618,7 @@
 				3AF546D21D5C2758005E9FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AF546D31D5C2758005E9FC1 /* Build configuration list for PBXNativeTarget "GPA CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +627,7 @@
 				3AF546D51D5C2758005E9FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
